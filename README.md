@@ -23,6 +23,28 @@
 
 Docker Compose와 PostgreSQL은 다음 단계에서 추가합니다.
 
+## PostgreSQL 실행
+
+저장소 루트에서 다음 명령을 실행합니다.
+
+```powershell
+Copy-Item .env.example .env
+docker compose up -d cookmark-db
+docker compose ps
+```
+
+PostgreSQL을 중지하려면 다음 명령을 사용합니다.
+
+```powershell
+docker compose stop cookmark-db
+```
+
+데이터까지 삭제하려면 다음 명령을 사용합니다. 이 명령은 로컬 DB 데이터를 삭제하므로 신중하게 실행합니다.
+
+```powershell
+docker compose down -v
+```
+
 ## 백엔드 실행
 
 ```powershell
@@ -49,3 +71,4 @@ npm.cmd run dev
 - [MVP PRD](PRD-MVP.md)
 - [요구사항 정의서](REQUIREMENTS-MVP.md)
 - [기능명세서](FUNCTIONAL-SPEC-MVP.md)
+- Docker 로컬 설정 문서는 Git에 올리지 않는 `DOCKER-LOCAL-SETUP.md`로 관리합니다.

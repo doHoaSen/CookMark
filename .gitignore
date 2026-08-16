@@ -20,6 +20,7 @@ frontend/npm-debug.log*
 /PRD-*.md
 /REQUIREMENTS-*.md
 /FUNCTIONAL-*.md
+/DOCKER-*.md
 
 # OS
 .DS_Store
