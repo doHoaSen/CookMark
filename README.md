@@ -68,7 +68,7 @@ npm.cmd run dev
 
 ## 문서
 
-- [MVP PRD](PRD-MVP.md)
-- [요구사항 정의서](REQUIREMENTS-MVP.md)
-- [기능명세서](FUNCTIONAL-SPEC-MVP.md)
-- Docker 로컬 설정 문서는 Git에 올리지 않는 `DOCKER-LOCAL-SETUP.md`로 관리합니다.
+제품 기획 문서와 Docker 상세 문서는 GitHub에 올리지 않고 로컬 및 Obsidian에서 관리합니다.
+
+- 로컬 문서 위치: `C:\workspace\cookmark`
+- Obsidian 문서 위치: `C:\workspace\Hoarchive\사부작사부작\CookMark`
