@@ -16,6 +16,11 @@ frontend/npm-debug.log*
 .idea/
 .vscode/
 
+# Planning and requirements documents
+/PRD-*.md
+/REQUIREMENTS-*.md
+/FUNCTIONAL-*.md
+
 # OS
 .DS_Store
 Thumbs.db
